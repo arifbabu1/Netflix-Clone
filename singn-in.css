@@ -1,0 +1,76 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    color: white;
+    font-family: popins, sans-serif;
+    @import url('https://fonts.googleapis.com/css2?family=Inter:wght@100..900&display=swap');
+
+    @import url('https://fonts.googleapis.com/css2?family=Fira+Sans:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+    @import url('https://fonts.googleapis.com/css2?family=Assistant:wght@200..800&family=Inter:wght@100..900&display=swap');
+
+}
+
+body {
+    background-color: rgba(0, 0, 0, 0.788);
+}
+
+/* --------------Header-------------- */
+
+/* --------Baground Image--------- */
+
+.header {
+    background-image: url("Images/Baground.jpg");
+    height: 105vh;
+    width: 100vw;
+    background-size: cover;
+    background-position: center center;
+    position: absolute;
+    top: 0;
+
+}
+
+
+.heater-opacity {
+    display: flex;
+    height: 105vh;
+    width: 100vw;
+    background-color: rgba(0, 0, 0, 0.308);
+    position: relative;
+    top: 0px;
+    left: 0;
+    z-index: 0;
+
+}
+
+/* -------------Nav Bar--------------- */
+
+.first-page {
+    position: absolute;
+    top: 0;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 10vh;
+    width: 100vw;
+
+}
+
+.nav {
+    height: 10vh;
+    width: 100vw;
+    padding: 8vh 13vw;
+    position: absolute;
+    top: 0;
+    display: flex;
+    justify-content: center;
+    justify-content: space-between;
+    align-items: center;
+}
+
+
+
+
+
